@@ -29,3 +29,20 @@ elif opcao == "5":
     print(agradecimento)
 else:
     print("Não temos esse produto!")
+
+# %%
+
+pergunta = """
+Olá, tudo bem?
+O que você deseja?
+"""
+
+opcao = input(pergunta)
+
+agradecimento = "Obrigado pela preferência!"
+
+if opcao in ["laranja", "cerveja", "miojo", "carvão", "picanha"]:
+    print("Aqui está o seu produto!")
+    print(agradecimento)
+else:
+    print("Não temos o produto", opcao)
