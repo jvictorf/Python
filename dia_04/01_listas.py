@@ -74,6 +74,25 @@ letras = joao[pos]
 
 joao[pos][len(letras)-1]
 
-# Para acessar o ultimo item da lista é só utilizar o -1
+# Para acessar o ultimo elementos da lista é só utilizar o -1
 
 print(joao[-1][-1])
+
+# Pegar os dois ultimos elementos da sub lista
+print(joao[4][3:5])
+
+# Pegar os dois ultimos elementos da sub lista
+print(joao[4][-2:])
+
+# Primeiros 3 elementos
+print(joao[4][:3])
+
+# joao[ start : stop]
+
+salarios = joao[5]
+salarios[::-1]
+
+# joao[ start : stop : step ]
+
+# Pegar elementos de 2 em 2
+joao[5][::2]
