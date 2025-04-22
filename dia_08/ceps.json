@@ -1,0 +1,67 @@
+[
+    {
+        "cep": "89700053",
+        "address_type": "Rua",
+        "address_name": "Marechal Deodoro",
+        "address": "Rua Marechal Deodoro",
+        "state": "SC",
+        "district": "Centro",
+        "lat": "-27.2330872",
+        "lng": "-52.0246647",
+        "city": "Concórdia",
+        "city_ibge": "4204301",
+        "ddd": "49"
+    },
+    {
+        "cep": "90810240",
+        "address_type": "Avenida",
+        "address_name": "Padre Cacique",
+        "address": "Avenida Padre Cacique",
+        "state": "RS",
+        "district": "Praia de Belas",
+        "lat": "-30.0705099",
+        "lng": "-51.2390975",
+        "city": "Porto Alegre",
+        "city_ibge": "4314902",
+        "ddd": "51"
+    },
+    {
+        "cep": "20531540",
+        "address_type": "Estrada",
+        "address_name": "Redentor",
+        "address": "Estrada Redentor",
+        "state": "RJ",
+        "district": "Alto da Boa Vista",
+        "lat": "-22.956185",
+        "lng": "-43.2448939",
+        "city": "Rio de Janeiro",
+        "city_ibge": "3304557",
+        "ddd": "21"
+    },
+    {
+        "cep": "89636000",
+        "address_type": "",
+        "address_name": "",
+        "address": "",
+        "state": "SC",
+        "district": "",
+        "lat": "-27.60995",
+        "lng": "-51.0258",
+        "city": "Abdon Batista",
+        "city_ibge": "4200051",
+        "ddd": "49"
+    },
+    {
+        "cep": "89830000",
+        "address_type": "",
+        "address_name": "",
+        "address": "",
+        "state": "SC",
+        "district": "",
+        "lat": "-26.56383",
+        "lng": "-52.33261",
+        "city": "Abelardo Luz",
+        "city_ibge": "4200101",
+        "ddd": "49"
+    }
+]
