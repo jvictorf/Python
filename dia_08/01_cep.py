@@ -11,8 +11,6 @@ ceps = [
     "89830000",
 ]
 
-#%%
-
 url = "https://cep.awesomeapi.com.br/json/{cep}"
 dados = []
 for i in ceps:
@@ -21,7 +19,7 @@ for i in ceps:
         dados.append(resposta.json())
 
 dados
-#%%
+
 print(dados)
 
 with open("ceps.json", "w", encoding='utf-8') as open_file:
