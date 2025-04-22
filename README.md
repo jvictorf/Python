@@ -17,6 +17,7 @@ O principal objetivo deste repositório é:
 
 - Python 3.12.7
 - VS Code / Jupyter Notebook
+- Anaconda
 - Bibliotecas utilizadas:
   - `math`
   - `datetime`

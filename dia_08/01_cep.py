@@ -1,6 +1,7 @@
 # %%
 import requests # para realizar requisições na web
 import json # para tratar json de listas/dicionarios para arquivos json
+from tqdm import tqdm
 
 ceps = [
     "89700053",
@@ -13,7 +14,8 @@ ceps = [
 
 url = "https://cep.awesomeapi.com.br/json/{cep}"
 dados = []
-for i in ceps:
+
+for i in tqdm(ceps):
     resposta = requests.get(url.format(cep=i))
     if resposta.status_code == 200:
         dados.append(resposta.json())
