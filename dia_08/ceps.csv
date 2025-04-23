@@ -1,0 +1,6 @@
+;cep;address_type;address_name;address;state;district;lat;lng;city;city_ibge;ddd
+0;89700053;Rua;Marechal Deodoro;Rua Marechal Deodoro;SC;Centro;-27.2330872;-52.0246647;Concórdia;4204301;49
+1;90810240;Avenida;Padre Cacique;Avenida Padre Cacique;RS;Praia de Belas;-30.0705099;-51.2390975;Porto Alegre;4314902;51
+2;20531540;Estrada;Redentor;Estrada Redentor;RJ;Alto da Boa Vista;-22.956185;-43.2448939;Rio de Janeiro;3304557;21
+3;89636000;;;;SC;;-27.60995;-51.0258;Abdon Batista;4200051;49
+4;89830000;;;;SC;;-26.56383;-52.33261;Abelardo Luz;4200101;49

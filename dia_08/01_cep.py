@@ -1,7 +1,8 @@
 # %%
 import requests # para realizar requisições na web
 import json # para tratar json de listas/dicionarios para arquivos json
-from tqdm import tqdm
+from tqdm import tqdm # load dos dados
+import pandas as pd # pandas é usado para transformar esse dados
 
 ceps = [
     "89700053",
@@ -22,7 +23,8 @@ for i in tqdm(ceps):
 
 dados
 
-print(dados)
+dataset = pd.DataFrame(dados)
+dataset.to_csv("ceps.csv", sep=";")
 
 with open("ceps.json", "w", encoding='utf-8') as open_file:
     json.dump(dados, open_file, ensure_ascii=False, indent=4)
