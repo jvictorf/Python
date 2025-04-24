@@ -10,6 +10,5 @@ resposta = requests.get(url.format(cep=cep))
 if resposta.status_code == 200:
     dados = resposta.json()
 
-function
 for chave, valor in dados.items():
     print(chave, "->", valor)
