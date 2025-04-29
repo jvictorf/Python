@@ -14,7 +14,9 @@ while len(lista) < 10:
 maior_num = max(lista)
 menor_num = min(lista)
 media_num = sum(lista) / len(numeros)
+pares = [num for num in lista if num % 2 == 0]
 
 print(lista)
-print(f"Maior número é: {maior_num} \n2Menor número é: {menor_num}")
+print(f"Maior número é: {maior_num} \nMenor número é: {menor_num}")
 print(f"Média dos números é: {media_num}")
+print(f"Esse são os números pares: {pares}")
